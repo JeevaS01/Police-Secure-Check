@@ -40,13 +40,13 @@ def lottie_file(filepath: str):
 police=lottie_file("icon/Police car.json")
 Book=lottie_file("icon/Book.json")
 presentation=lottie_file("icon/presentation.json")
-graph=lottie_file("C:/Users/LOQ/Documents/GUVI DS/Project-SecureCheck/icon/graph.json")
-Globe2=lottie_file("C:/Users/LOQ/Documents/GUVI DS/Project-SecureCheck/icon/Globe2.json")
-sandy=lottie_file("C:/Users/LOQ/Documents/GUVI DS/Project-SecureCheck/icon/sandy.json")
-search=lottie_file("C:/Users/LOQ/Documents/GUVI DS/Project-SecureCheck/icon/search.json")
-Files=lottie_file("C:/Users/LOQ/Documents/GUVI DS/Project-SecureCheck/icon/Files.json")
-badge=lottie_file("C:/Users/LOQ/Documents/GUVI DS/Project-SecureCheck/icon/badge.json")
-Motorcycle=lottie_file("C:/Users/LOQ/Documents/GUVI DS/Project-SecureCheck/icon/Motorcycle.json")
+graph=lottie_file("icon/graph.json")
+Globe2=lottie_file("icon/Globe2.json")
+sandy=lottie_file("icon/sandy.json")
+search=lottie_file("icon/search.json")
+Files=lottie_file("icon/Files.json")
+badge=lottie_file("icon/badge.json")
+Motorcycle=lottie_file("icon/Motorcycle.json")
 st.set_page_config(page_title="SecureCheck Dashboard",layout="wide")
 
 col1,col2,col3=st.columns([0.8,2,15])
@@ -360,6 +360,7 @@ with st.form("New Police Log Entry"):
 #         return None
 #     return r.json()
 #police_icon=lottie_url("https://app.lottiefiles.com/share/481bf29d-c0e9-4f35-9510-4b78bfb32150")
+
 
 
 
