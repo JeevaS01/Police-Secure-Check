@@ -34,12 +34,12 @@ def fetch_data(query):
         return pd.DataFrame()
     
 #streamlit UI
-def lottie_file(file):
-    with open(file,"r", encoding="utf-8") as f:
+def lottie_file(filepath: str):
+    with open(filepath, "r", encoding="utf-8") as f:
         return json.load(f)
-police=lottie_file("C:/Users/LOQ/Documents/GUVI DS/Project-SecureCheck/icon/Police car.json")
-Book=lottie_file("C:/Users/LOQ/Documents/GUVI DS/Project-SecureCheck/icon/Book.json")
-presentation=lottie_file("C:/Users/LOQ/Documents/GUVI DS/Project-SecureCheck/icon/presentation.json")
+police=lottie_file("icon/Police car.json")
+Book=lottie_file("icon/Book.json")
+presentation=lottie_file("icon/presentation.json")
 graph=lottie_file("C:/Users/LOQ/Documents/GUVI DS/Project-SecureCheck/icon/graph.json")
 Globe2=lottie_file("C:/Users/LOQ/Documents/GUVI DS/Project-SecureCheck/icon/Globe2.json")
 sandy=lottie_file("C:/Users/LOQ/Documents/GUVI DS/Project-SecureCheck/icon/sandy.json")
@@ -360,6 +360,7 @@ with st.form("New Police Log Entry"):
 #         return None
 #     return r.json()
 #police_icon=lottie_url("https://app.lottiefiles.com/share/481bf29d-c0e9-4f35-9510-4b78bfb32150")
+
 
 
 
