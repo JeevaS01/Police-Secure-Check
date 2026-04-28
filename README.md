@@ -13,22 +13,22 @@
 ## 🖥️ Project Screenshots
 
 ### 1. Dashboard Home & Police Logs Overview
-![Dashboard Home](screenshots/p1.png)
+![Dashboard Home](screenshots/p1.jpg)
 
-### 2. Key Metrics Panel
-![Key Metrics](screenshots/p2.png)
+### 2. Key Metrics Panel + Insights Chart
+![Key Metrics](screenshots/p2.jpg)
 
-### 3. Stop by Violation Type – Bar Chart
-![Violation Chart](screenshots/p3.png)
+### 3. Geographical Country-Wise Violations Map
+![Violation Chart](screenshots/p3.jpg)
 
-### 4. Gender Distribution of Drivers
-![Gender Distribution](screenshots/p4.png)
+### 4. Advanced Insights (Query table)
+![Gender Distribution](screenshots/p4.jpg)
 
-### 5. Geographical Country-Wise Violations Map
-![Geo Map](screenshots/p5.png)
+### 5. Custom - Natural Language Filter
+![Geo Map](screenshots/p5.jpg)
 
-### 6. Predict Stop Outcome – Natural Language Filter
-![Prediction Form](screenshots/p6.png)
+### 6. Predict Stop Outcome 
+![Prediction Form](screenshots/p6.jpg)
 
 ---
 
